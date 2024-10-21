@@ -1,57 +1,69 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <title>CSCI225 Homepage of Coen</title>
-    </head>
-
-    <body>
-        
-        <div class="Navbar">
-            <ul>
-                <li><a href="https://www.usca.edu/"><i>USCA main page</i></a></li>
-                <li><a href="#assignment">go to assignment section</a></li>
-                <li><a href="#contact">go to contact info</a></li>
-                <li><a href="#schedule">go to schedule section</a></li>
-                <li><a href="http://www.facebook.com">Facebook</a></li>
-            </ul>
-        </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI225 Homepage of Coen</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div class="Navbar">
+        <ul>
+            <li><a href="https://www.usca.edu/">USCA main page</a></li>
+            <li><a href="#assignment">Go to Assignment Section</a></li>
+            <li><a href="#contact">Go to Contact Info</a></li>
+            <li><a href="#schedule">Go to Schedule Section</a></li>
+            <li><a href="http://www.facebook.com">Facebook</a></li>
+        </ul>
+    </div>
      
-        <div class="introduction">
-            <h1>Introduction</h1>
-            <p><em>My name is Coen Bott. I am a CyberSecurity major at USCA. I was born in Florida, but I have lived in many states.</em></p>
-            <img src="img/jacksonville.jpg" alt="Jacksonville, FLorida">
+    <div class="introduction">
+        <h1 class="toggle">Introduction</h1>
+        <div class="content">
+            <p>My name is Coen Bott. I am a CyberSecurity major at USCA. I was born in Jacksonville, Florida but I have lived all over. My favorite baseball team is the Yankees and I also played baseball most of my life.</p>
+            <img src="img/jacksonville.jpg" alt="Jacksonville, Florida">
         </div>
-        <div class="assignment">
-            <h1 id="assignment">Assignment</h1>
+    </div>
+
+    <div class="assignment">
+        <h1 class="toggle">Assignment</h1>
+        <div class="content">
             <ol>
                 <li><a href="doc/Assignment1.pdf" target="_blank">Open assignment 1</a></li>
-                <li><a href="doc/ContactMe.html" target="_blank"> Contact Me</a></li>
-                <li> Assignment 3</li>
+                <li><a href="doc/ContactMe.html" target="_blank">Contact Me</a></li>
+                <li>Assignment 3</li>
             </ol>
         </div>
-        <div class="Portfolio">
-            <h1>Portfolio</h1>
+    </div>
+
+    <div class="Portfolio">
+        <h1 class="toggle">Portfolio</h1>
+        <div class="content">
             <ol>
-                <li>project 1</li>
-                <ul>
-                    <li>This needed much techinical skill and such.</li>
-                </ul>
-                <li>project 2</li>
-                <ul>
-                    <li>This also needed much techinical skill and such.</li>
-                </ul>
-                <li>project 3</li>
-                <ul>
-                    <li>This other one needed much techinical skill and such.</li>
-                </ul>
+                <li>Project 1
+                    <ul>
+                        <li>This needed much technical skill and such.</li>
+                    </ul>
+                </li>
+                <li>Project 2
+                    <ul>
+                        <li>This also needed much technical skill and such.</li>
+                    </ul>
+                </li>
+                <li>Project 3
+                    <ul>
+                        <li>This other one needed much technical skill and such.</li>
+                    </ul>
+                </li>
             </ol>
             <p id="contact">Contact Information</p>
             <a href="mailto:sabott@usca.edu">cabott@usca.edu</a>
-
         </div>
-        <div class="schedule">
-            <h1 id="schedule"> Schedule</h1>
+    </div>
+
+    <div class="schedule">
+        <h1 class="toggle">Schedule</h1>
+        <div class="content">
             <table border="1">
                 <tr>
                     <th></th>
@@ -63,63 +75,79 @@
                 </tr>
                 <tr>
                     <td>9:00-10:00</td>
-                    <td>BMIF 315 Methodlogical foundations of biometrichal informations LH-TBD</td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td>BMIF Methodlogical foundations of biometrichal informations LH-TBD</td>
+                    <td>BMIF 315 Methodological foundations of biometrical information LH-TBD</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>BMIF Methodological foundations of biometrical information LH-TBD</td>
                 </tr>
                 <tr>
                     <td>10:00-11:00</td>
-                    <td> </td>
-                    <td> </td>
-                    <td rowspan="2">BMIF Methodlogical foundations of biometrichal informations LH-TBD </td>
-                    <td> </td>
-                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2">BMIF Methodological foundations of biometrical information LH-TBD</td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>11:00-12:00 </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
+                    <td>11:00-12:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>12:00-1:00 </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
+                    <td>12:00-1:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>1:00-2:00</td>
                     <td>BMIF 316b Scientific communication EBL-456</td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>2:00-3:00</td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
-                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>3:00-4:00</td>                    
-                    <td row="3"> BMIF 320 Healthcare organization and managment EBL-456</td>
+                    <td rowspan="3">BMIF 320 Healthcare organization and management EBL-456</td>
                     <td>BMIF 380 Data privacy in medicine feathering hall-313 2:35-3:50</td>
-<td></td>
-<td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                 </tr>
             </table>
         </div>
-        
-    </body>
-    <footer> <b> &copy;2024 Coen all rights reserved </b></footer>
+    </div>
 
+    <footer>
+        <b>&copy;2024 Coen all rights reserved</b>
+    </footer>
+
+    <script>
+        // JavaScript for toggling the content
+        document.querySelectorAll('.toggle').forEach(function (heading) {
+            heading.addEventListener('click', function () {
+                const content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        });
+    </script>
+</body>
 </html>

@@ -1,0 +1,177 @@
+:root{
+    --h1-color: rgb(238, 238, 238);
+    --intro-color: rgb(248, 165, 165);
+}
+
+
+/* General Styles */
+body {
+    margin: 1;
+    font-family: 'Arial', sans-serif; 
+    background-image: url(../img/yankees.jpg); 
+     
+}
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #b11a1ab3; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.Navbar li {
+    margin: 0 15px;
+}
+
+.Navbar a {
+    color: white;
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.Navbar a:hover {
+    color: #ffcc00; 
+}
+
+.content {
+    display: none; 
+}
+
+
+
+.introduction {
+    position: fixed;
+    top: 50px; 
+    left: 0;
+    right: 0;
+    background-color: rgba(240, 240, 240, 0); 
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.introduction h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    color: var(--h1-color);
+    text-shadow: 1px 1px 2px rgb(16, 15, 15); 
+}
+
+.introduction p {
+    color: var(--intro-color);
+    line-height: 1.6; 
+    text-align: justify; 
+}
+
+.introduction img {
+    float: right;
+    width: 30%; 
+    height: auto; 
+}
+
+
+.assignment {
+    color: var(--intro-color);
+    margin-top: 220px; 
+    padding: 20px;
+}
+
+.assignment h1 {
+    color: var(--h1-color);
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+
+
+.Portfolio {
+    color: var(--intro-color);
+    margin-top: 40px; 
+    padding: 20px;
+}
+
+.Portfolio h1 {
+    color: var(--h1-color);
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+
+.Portfolio a {
+    color: #007BFF; 
+    text-decoration: none; 
+}
+
+.Portfolio a:hover {
+    text-decoration: none; 
+}
+
+.schedule {
+    color: var(--h1-color);
+    margin-top: 40px; 
+    padding: 20px;
+}
+
+.schedule table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #fb0505; 
+    padding: 10px; 
+    vertical-align: top; 
+}
+
+.schedule tr:nth-child(even) {
+    background-color: #010000; 
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f0f0; 
+    padding: 20px;
+    position: relative; 
+    width: 100%;
+}
+
+.introduction p::first-letter {
+    color: #ff0000; 
+    font-size: 2em; 
+}
+
+.assignment ol, .Portfolio ol {
+    padding-left: 20px; 
+}
+
+.assignment a, .Portfolio a {
+    color: #007BFF; 
+    text-decoration: none; 
+}
+
+.assignment a:hover, .Portfolio a:hover {
+    color: #ffcc00; 
+}
+
+.schedule table {
+    border-collapse: collapse; 
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    vertical-align: top; 
+    empty-cells: hide; 
+}
+
+.introduction h1:hover {
+    transform: scale(1.05); 
+    transition: all 0.3s ease; 
+}
